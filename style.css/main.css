@@ -1,0 +1,918 @@
+@import url('../style.css/reset.css');
+@import url('../style.css/fonts.css');
+
+
+header {
+    width: 100%;
+    position: absolute;
+}
+
+.head {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto 0;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-family: 'Montserrat-Bold';
+    font-size: 20px;
+    color: white;
+
+}
+
+a {
+    color: white;
+}
+
+.login {
+    font-family: 'Montserrat-Regular';
+    font-size: 14px;
+    color: white;
+}
+
+.signIn {
+    width: 90px;
+    height: 36px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 40px;
+    background-color: transparent;
+    font-family: 'Montserrat-Regular';
+    font-size: 14px;
+}
+
+.home {
+    width: 100%;
+    height: 700px;
+    background-image: url(../images/Bitmap.png);
+    background-color: rgb(2, 2, 3, 80.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    width: 470px;
+    height: 126px;
+    font-family: 'Montserrat-Bold';
+    font-size: 52px;
+    line-height: 63px;
+    text-align: center;
+    color: white;
+    margin-bottom: 29px;
+}
+
+p {
+    width: 396px;
+    height: 25px;
+    font-family: 'Roboto-light';
+    font-size: 24px;
+    line-height: 24px;
+    color: white;
+    margin-bottom: 33px;
+}
+
+.btn {
+    width: 225px;
+    height: 40px;
+    font-size: 14px;
+    background: #FF4E50;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    font-family: 'Montserrat-Bold';
+}
+
+.container {
+    width: 940px;
+    margin: 95px auto;
+}
+
+.first {
+    width: 100%;
+    /* height: 467px; */
+    margin-bottom: 95px;
+}
+
+h2 {
+    font-family: 'Montserrat-Bold';
+    font-size: 26px;
+    line-height: 32px;
+    color: #444444;
+    margin: 0px auto 35px;
+}
+
+.steps {
+    width: 100%;
+    /* height: 400px; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.step1 {
+    width: 300px;
+    height: 400px;
+    background-image: url(../images/Bitmap\ \(1\).png);
+    background-color: rgb(2, 2, 3, 80.3);
+    padding: 224px 0 0 39px;
+}
+
+.gradient {
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.st1 {
+    width: 70px;
+    height: 20px;
+    background: #FF4E50;
+    border-radius: 40px;
+    color: white;
+    font-family: 'Montserrat-Regular';
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    width: 250px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.description {
+    width: 250px;
+    height: 57px;
+    font-family: 'Roboto-light';
+    font-size: 14px;
+    line-height: 14px;
+    color: #E3E3E3;
+    margin-top: 10px;
+}
+
+.step2 {
+    width: 300px;
+    height: 400px;
+    background-image: url(../images/Bitmap\ \(2\).png);
+    padding: 250px 0 0 25px;
+}
+
+.st2 {
+    width: 70px;
+    height: 20px;
+    background: #FF4E50;
+    border-radius: 40px;
+    color: white;
+    font-family: 'Montserrat-Regular';
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step3 {
+    width: 300px;
+    height: 400px;
+    background-image: url(../images/Bitmap\ \(3\).png);
+    padding: 224px 0 0 39px;
+}
+
+.st3 {
+    width: 70px;
+    height: 20px;
+    background: #FF4E50;
+    border-radius: 40px;
+    color: white;
+    font-family: 'Montserrat-Regular';
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meet {
+    width: 940px;
+    /* height: 361px; */
+    margin-bottom: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.mp {
+    font-family: 'Montserrat-Bold';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+}
+
+.partners {
+    width: 940px;
+    /* height: 205px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.partner {
+    width: 221px;
+    height: 224px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.partnerFoto {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background-image: url(../images/p1.png);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back {
+    width: 32px;
+    height: 32px;
+    background-color: #FF4E50;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 16px;
+    height: 16px;
+}
+
+.name {
+    font-family: 'Montserrat-Bold';
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+}
+
+.contactInform {
+    width: 221px;
+    font-family: Roboto-light;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #666666;
+}
+
+.partnerFoto2 {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background-image: url(../images/p2.png);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.back2 {
+    width: 32px;
+    height: 32px;
+    background-color: #19D4CA;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partnerFoto3 {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background-image: url(../images/p3.png);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.back3 {
+    width: 32px;
+    height: 32px;
+    background-color: #FFA710;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partnerFoto4 {
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background-image: url(../images/p4.png);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.back4 {
+    width: 32px;
+    height: 32px;
+    background-color: #667DF3;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sop {
+    width: 180px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: transparent;
+    border-color: #FF4E50;
+    outline: none;
+    margin: 36px auto 0;
+}
+
+.discover {
+    width: 100%;
+    /* height: 1037px; */
+
+    margin: 95px 0;
+}
+
+h2 {
+    font-family: 'Montserrat-Bold';
+    font-size: 26px;
+    line-height: 32px;
+    color: #444444;
+    margin: 0px auto 35px;
+}
+
+.activities1 {
+    width: 100%;
+    /* height: 310px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sport {
+    width: 300px;
+    height: 310px;
+    background-image: url(../images/Sport.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.health {
+    width: 300px;
+    height: 310px;
+    background-image: url(../images/Healath.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.extreme {
+    width: 300px;
+    height: 310px;
+    background-image: url(../images/Extreme.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.activities2 {
+    width: 100%;
+    /* height: 310px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.games {
+    width: 300px;
+    height: 310px;
+    background-image: url(../images/Games.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.education {
+    width: 620px;
+    height: 310px;
+    background-image: url(../images/Culture.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.activities3 {
+    width: 100%;
+    /* height: 310px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.relax {
+    width: 620px;
+    height: 310px;
+    background-image: url(../images/Culture\ Copy.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trevel {
+    width: 300px;
+    height: 310px;
+    background-image: url(../images/Games\ Copy.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.searchPartners {
+    width: 482px;
+    /* height: 158px; */
+    margin: 0 auto;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.interests {
+    /* width: 415px; */
+    height: 24px;
+    font-family: 'Roboto-light';
+    font-size: 18px;
+    line-height: 14px;
+    text-align: center;
+    color: #666666;
+    margin: 43px auto 19px;
+}
+
+input[type="text"] {
+    width: 299px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 3px;
+    border: 1px solid #D4D4D4;
+}
+
+input[placeholder="Enter your insterests"] {
+    font-family: Roboto-light;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.search {
+    width: 172.12px;
+    height: 40px;
+    background: #FF4E50;
+    border-radius: 40px;
+    color: white;
+    font-family: 'Montserrat-Regular';
+    border: none;
+}
+
+footer {
+    width: 100%;
+    /* height: 186px; */
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid red;
+    padding: 38px 0 0 0;
+}
+
+.logo2 {
+    width: 119px;
+    height: 20px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF4E50;
+}
+
+.company {
+    width: 114px;
+    font-family: 'Montserrat-Bold';
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.links {
+    width: 114px;
+    height: 156px;
+    margin-top: 11px;
+    display: flex;
+    flex-direction: column;
+}
+
+.company a {
+    width: 114px;
+    height: 156px;
+    font-family: 'Roboto-light';
+    font-size: 14px;
+    line-height: 26px;
+    color: #999999;
+
+}
+
+.prtn {
+    width: 64px;
+    height: 17px;
+    font-family: 'Montserrat-Bold';
+    font-size: 14px;
+    line-height: 17px;
+    color: #444444;
+}
+
+.design {
+    width: 113px;
+    height: 43px;
+    font-family: 'Montserrat-Bold';
+    font-size: 10px;
+    line-height: 12px;
+    color: #CCCCCC;
+    text-align: right;
+}
+
+.arteo {
+    width: 110px;
+    height: 24px;
+    margin-top: 8px;
+}
+
+
+@media screen and (max-width: 998px) {
+    .head {
+        width: 670px;
+    }
+
+    h2 {
+        font-weight: 22px;
+    }
+
+    .container {
+        width: 748px;
+    }
+
+    .step1 {
+        width: 236px;
+        height: 400px;
+        padding: 205px 0 0 20px;
+    }
+
+    .step2 {
+        width: 236px;
+        height: 400px;
+        padding: 255px 0 0 20px;
+    }
+
+    .step3 {
+        width: 236px;
+        height: 400px;
+        padding: 205px 0 0 20px;
+    }
+
+    h3 {
+        width: 196px;
+    }
+
+    .description {
+        width: 196px;
+    }
+
+    .meet {
+        width: 492px;
+        /* height: 605px; */
+        margin: 0 auto;
+    }
+
+    .partners {
+        width: 492px;
+        /* height: 464px; */
+    }
+
+    .sport {
+        width: 236px;
+        height: 310px;
+    }
+
+    .health {
+        width: 236px;
+        height: 310px;
+    }
+
+    .extreme {
+        width: 236px;
+        height: 310px;
+    }
+
+    .games {
+        width: 236px;
+        height: 310px;
+    }
+
+    .education {
+        width: 492px;
+        height: 310px;
+    }
+
+    .relax {
+        width: 492px;
+        height: 310px;
+    }
+
+    .trevel {
+        width: 236px;
+        height: 310px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .head {
+        width: 154px;
+        height: 157px;
+        flex-direction: column-reverse
+    }
+
+    h1 {
+        font-size: 30px;
+        width: 272px;
+        height: 74px;
+        line-height: 37px;
+        text-align: center;
+    }
+
+    p {
+        width: 280px;
+        height: 49px;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: inherit;
+        color: #F7F3F2;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0 10px;
+
+    }
+
+    h2 {
+        margin-top: 35px;
+        font-size: 22px;
+        color: #444444;
+    }
+
+    .steps {
+        justify-content: center;
+    }
+
+    .step1 {
+        width: 90vw;
+        height: 240px;
+        padding: 64px 0 0 20px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    h3 {
+        width: 250px;
+        height: 29px;
+        font-size: 24px;
+        line-height: 14px;
+        margin-top: 38px;
+    }
+
+    .description {
+        width: 250px;
+        height: 42px;
+        font-size: 14px;
+        line-height: 14px;
+        margin-top: 25px;
+    }
+
+    .step2 {
+        width: 90vw;
+        height: 240px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        padding: 64px 0 0 20px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .step3 {
+        width: 90vw;
+        height: 240px;
+        padding: 64px 0 0 20px;
+        border-radius: 10px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .meet {
+        width: 100%;
+    }
+
+    .mp {
+        font-size: 22px;
+    }
+
+    .partners {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .partner {
+        width: 236px;
+    }
+
+    .discover {
+        width: 100%;
+        margin-bottom: 35px;
+
+    }
+
+    .activities1 {
+        flex-wrap: wrap;
+        margin-bottom: 0px;
+        justify-content: center;
+
+    }
+
+    .sport {
+        width: 90vw;
+        height: 120px;
+        margin-bottom: 10px;
+    }
+
+    .health {
+        width: 90vw;
+        height: 120px;
+        margin-bottom: 10px;
+    }
+
+    .extreme {
+        width: 90vw;
+        height: 120px;
+        margin-bottom: 10px;
+    }
+
+    .activities2 {
+        flex-wrap: wrap;
+        margin-bottom: 0px;
+        justify-content: center;
+
+    }
+
+    .games {
+        width: 90vw;
+        height: 120px;
+        margin-bottom: 10px;
+    }
+
+    .education {
+        width: 90vw;
+        height: 120px;
+        margin-bottom: 10px;
+    }
+
+    .activities3 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .relax {
+        width: 90vw;
+        height: 120px;
+        margin-bottom: 10px;
+    }
+
+    .trevel {
+        width: 90vw;
+        height: 120px;
+        margin-bottom: 10px;
+    }
+
+    .searchPartners {
+        width: 100%;
+    }
+
+    h2 {
+        width: 280px;
+    }
+
+    .interests {
+        margin-top: 9px;
+    }
+
+    form {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input[type="text"] {
+        width: 280px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    .search {
+        width: 280px;
+        height: 40px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo2 {
+        margin-bottom: 13px;
+    }
+
+    .company {
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .links {
+        width: 280px;
+        height: 52px;
+        line-height: 26px;
+        text-align: center;
+        display: block;
+        padding: 0 42px;
+        margin: 0px 0 6px;
+    }
+
+    .prtn {
+        margin-bottom: 14px;
+    }
+
+    .design {
+        width: 110px;
+        height: 43px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
